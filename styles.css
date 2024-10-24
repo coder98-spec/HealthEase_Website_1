@@ -22,11 +22,10 @@ header h1 {
 
 button {
     border: none;
-    padding: 10px 20px;
+    padding: 5px 5px;
     border-radius: 25px;
-    cursor: pointer;
     font-size: 16px;
-    font-weight: bold;
+   
 }
 
 .btn-primary {
@@ -52,7 +51,7 @@ input[type="submit"] {
     background-color: var(--theme-color);
     color: var(--text-color);
     border: none;
-    padding: 10px 20px;
+    padding: 5x 5x;
     cursor: pointer;
 }
 
@@ -134,31 +133,6 @@ a:hover {
 .header-options .option-link.button:hover {
     background-color: #0056b3; /* Darker background on hover */
 }
-
-/* Slogan Styling */
-.slogan {
-    text-align: center; /* Center the slogan */
-    margin: 5px 0; /* Spacing above and below */
-}
-
-.blinking {
-    font-size: 1.2rem; /* Font size for the slogan */
-    color: #007bff; /* Slogan color */
-    animation: blink-animation 1.5s steps(5, end) infinite; /* Blinking effect */
-}
-
-/* Blinking Animation */
-@keyframes blink-animation {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
-
-}
-
-
 
 
 /* Section Styling */
@@ -354,19 +328,6 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Video Section Styling */
-.video-section {
-    display: inline-block;
-    margin: 20px;
-    text-align: center;
-    color: #ffffff; /* Ensures text below the video is white */
-}
-
-.video-section p {
-    font-size: 1.1rem; /* Increased font size for better readability */
-    color: #ffffff; /* White color for better visibility */
-    margin-top: 10px;
-}
 
 /* Login/Sign-up Section */
 .login-signup-section {
