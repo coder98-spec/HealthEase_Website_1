@@ -41,19 +41,6 @@ function searchDoctors() {
     }
 }
 
-// Submit Booking Form
-function submitBooking(event) {
-    event.preventDefault();
-    alert("Your appointment has been booked successfully!");
-    document.getElementById('bookingForm').reset();
-}
-
-// Submit Question Form
-function submitQuestion(event) {
-    event.preventDefault();
-    alert("Your question has been submitted successfully!");
-    document.getElementById('questionForm').reset();
-}
 
 // Placeholder functions for handling form submissions
 function handleLogin(event) {
